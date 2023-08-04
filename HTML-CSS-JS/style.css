@@ -1,0 +1,258 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    background-color: #ffd21c;
+}
+
+.ad, #Ad{
+  text-align: center;
+  line-height: 25px;
+  background-image: url("images/Ad-background.png");
+  background-size: 1500px 1000px;
+}
+.ad-main{
+  text-align: center;
+  line-height: 25px;
+  background-size: 1500px 1000px;
+}
+.topnav {
+  background-color: #ffe88a;
+  overflow: hidden;
+  padding: 10px 0px;
+  text-align: center;
+}
+h1{
+    float: left;
+    position: reletive;
+    top:20px;
+    color: #e33737;
+    font-family:cursive;
+    font-size: 35px;
+	text-shadow: -1px 1px 0 #e89191, 1px 1px 0 #000000, 1px -1px 0 #000;-1px -1px 0 #dd491c;   
+}
+.topnav a {
+  color: #ff5d5d;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  top:45px;
+}
+.topnav a:hover {
+  background-color:#a71313;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.topnav a.active {
+  background-color: #670101;
+  color: white;
+}
+.order{
+    font-size: 25px;
+    float: right;
+}
+.nav {
+  background-color: #ffdf5c; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px 50px;
+}
+.nav a{
+    color:#ff5d5d;
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.Hob1, .Hob2, .Hob3, .Hob4, .Hob5, .Hob6 { 
+    text-align: center;
+    padding: 15px;
+    border: 5px solid #6e00bd;
+    margin: 5px;
+}
+h2{
+    text-align: left
+}
+.Hob div{
+    float: left;    
+}
+.Hob{
+    margin-left: 0px;
+}
+.menu{
+    margin-left: 175px;
+}
+ .Hob1 img, .Hob2 img, .Hob3 img, .Hob4 img, .Hob5 img, .Hob6 img{
+    width:300px; 
+    height:200px;
+}
+.Breif, h2{
+    color:#e33737;
+    font-size: 35px;
+    background-color: azure;
+    padding: 20px;
+}
+.Breif, p{
+    font-size: 20px;
+}
+div a{
+  text-decoration:none;
+  color:black;
+}
+.ad img{
+  position: absolute;
+}
+.ad-text-1 {
+  position: absolute;
+  left: 80px;
+  word-wrap: break-word;
+  font-size: 50px;
+}
+.ad-image-1 {
+  right:200px;
+  top:250px;
+}
+.ad-image-2 {
+  right:270px;
+  top:140px;
+}
+.ad-image-3 {
+  right:110px;
+  top:90px;
+}
+.ad-image-4 {
+  right:0px;
+  top:45px;
+}
+.ad-button {
+  background-color: #e00000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  position: absolute;
+  left: 200px;
+  top:400px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  border-radius: 12px;
+}
+.ad-content1::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content2::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content2::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content3::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content3::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content4::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content4::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-content5::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main img{
+  position: absolute;
+}
+.ad-main-text-1 {
+  position: absolute;
+  left: 80px;
+  top:1000px;
+  word-wrap: break-word;
+  font-size: 50px;
+}
+.ad-main-image-1 {
+  right:200px;
+  top:1200px;
+}
+.ad-main-image-2 {
+  right:270px;
+  top:1090px;
+}
+.ad-main-image-3 {
+  right:110px;
+  top:1090px;
+}
+.ad-main-image-4 {
+  right:0px;
+  top:1005px;
+}
+.ad-main-button {
+  background-color: #e00000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  position: absolute;
+  left: 180px;
+  top: 1350px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  border-radius: 12px;
+}
+.ad-main-content1::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content2::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content2::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content3::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content3::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content4::before{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content4::after{
+    content: "\a";
+    white-space: pre;
+}
+.ad-main-content5::before{
+    content: "\a";
+    white-space: pre;
+}
+button:hover{
+  text-decoration: underline;
+  text-decoration-color:black ;
+}
